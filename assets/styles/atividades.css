@@ -30,7 +30,7 @@ body {
 
     width: 90px;
     height: 90px;
-    background-color: red;
+    background-color: rgb(51, 46, 46);
     border-radius: 5000px;
 }
 
@@ -38,7 +38,7 @@ body {
 
     width: 90px;
     height: 90px;
-    background-color: yellow;
+    background-color: rgb(51, 46, 46);
     border-radius: 5000px;
 }
 
@@ -46,26 +46,34 @@ body {
 
     width: 90px;
     height: 90px;
-    background-color: rgb(3, 218, 3);
+    background-color: rgb(51, 46, 46);
     border-radius: 5000px;
 
 }
 
 #q1:hover {
     transform: 2s;
+    background-color: #ff0000;
     box-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000;
     filter: brightness(200%);
-    transition: all 0.2s ease;
+    transition: all 0.6s ease;
+
+
+
 }
 
 #q2:hover {
+    transform: 2s;
+    background-color: yellow;
     box-shadow: 0 0 10px #fffb00, 0 0 20px #fffb00, 0 0 30px #fffb00;
     filter: brightness(200%);
-    transition: all 0.2s ease
+    transition: all 0.6s ease
 }
 
 #q3:hover {
+    transform: 2s;
+    background-color: #00ff00;
     box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
     filter: brightness(200%);
-    transition: all 0.2s ease
+    transition: all 0.6s ease
 }
