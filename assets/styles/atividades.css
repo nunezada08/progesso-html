@@ -10,19 +10,37 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+    flex-direction: column;
 
 }
 
 #q1 {
-    width: 150px;
-    height: 150px;
-    background-color: rgb(146, 229, 255);
+
+    width: 90px;
+    height: 90px;
+    background-color: red;
+    border-radius: 5000px;
+    box-shadow: 0 0 10px #00000081, 0 0 20px #00000062, 0 0 30px #0000006e;
+    filter: brightness(200%);
 }
 
 #q2 {
 
-    width: 150px;
-    height: 150px;
-    background-color: rgb(202, 146, 255)
+    width: 90px;
+    height: 90px;
+    background-color: yellow;
+    border-radius: 5000px;
+    box-shadow: 0 0 10px #00000081, 0 0 20px #00000062, 0 0 30px #0000006e;
+    filter: brightness(200%);
+}
+
+#q3 {
+
+    width: 90px;
+    height: 90px;
+    background-color: rgb(3, 218, 3);
+    border-radius: 5000px;
+    box-shadow: 0 0 10px #00000081, 0 0 20px #00000062, 0 0 30px #0000006e;
+    filter: brightness(200%);
 
 }
