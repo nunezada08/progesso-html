@@ -32,8 +32,6 @@ body {
     height: 90px;
     background-color: red;
     border-radius: 5000px;
-    box-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000;
-    filter: brightness(200%);
 }
 
 #q2 {
@@ -42,8 +40,6 @@ body {
     height: 90px;
     background-color: yellow;
     border-radius: 5000px;
-    box-shadow: 0 0 10px #fffb00, 0 0 20px #fffb00, 0 0 30px #fffb00;
-    filter: brightness(200%);
 }
 
 #q3 {
@@ -52,7 +48,24 @@ body {
     height: 90px;
     background-color: rgb(3, 218, 3);
     border-radius: 5000px;
+
+}
+
+#q1:hover {
+    transform: 2s;
+    box-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000;
+    filter: brightness(200%);
+    transition: all 0.2s ease;
+}
+
+#q2:hover {
+    box-shadow: 0 0 10px #fffb00, 0 0 20px #fffb00, 0 0 30px #fffb00;
+    filter: brightness(200%);
+    transition: all 0.2s ease
+}
+
+#q3:hover {
     box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
     filter: brightness(200%);
-
+    transition: all 0.2s ease
 }
