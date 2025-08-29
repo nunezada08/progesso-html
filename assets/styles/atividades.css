@@ -13,10 +13,16 @@
 
 }
 
-.flex-item {
-
+#q1 {
     width: 150px;
     height: 150px;
     background-color: rgb(146, 229, 255);
+}
+
+#q2 {
+
+    width: 150px;
+    height: 150px;
+    background-color: rgb(202, 146, 255)
 
 }
