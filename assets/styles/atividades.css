@@ -3,9 +3,20 @@
     padding: 0;
 }
 
-.quadrado {
-        width: 23%;
-        height: 170px;
-        background-color: rgb(97, 145, 248);
-        margin: 40px auto;
+.container-flex {
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.flex-item {
+
+    width: 150px;
+    height: 150px;
+    background-color: rgb(146, 229, 255);
+
 }
