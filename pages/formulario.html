@@ -15,7 +15,7 @@
         </div>
 
         <div class="rank-ninja">
-            <label for="rank-ninja">Escolhe o rank da ninja</label>
+            <label for="rank-ninja">Selecione o rank do ninja</label>
             <select name="rank-ninja" id="rank-ninja">
                 <option value="Selecione">Selecione seu rank</option>
                 <option value="Genin">Genin</option>
@@ -23,6 +23,24 @@
                 <option value="Jōnin">Jōnin</option>
                 <option value="Kage">Kage</option>
             </select>
+
+        </div>
+        
+        <div>
+        <label for="rank">Selecione o rank da missão</label>
+        <select name="rank" name="rank" required>
+            <option value="">Tipo de missao</option>
+            <option value="S">Rank S</option>
+            <option value="A">Rank A</option>
+            <option value="B">Rank B</option>
+            <option value="C">Rank C</option>
+            <option value="D">Rank D</option>
+        </select>
+        </div>
+        
+        <input type="email" requiredminlength="3"maxlength="50"pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"placeholder="seu.email@aldeia.com">
+
+        <button type="submit">Registrar na Academia</button>
     </form>
     
 </body>
