@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../assets/styles/formulario.css">
     <title>Formulario LIMA</title>
 </head>
+
 <body>
     <form action="#" method="POST">
 
@@ -25,23 +26,48 @@
             </select>
 
         </div>
-        
-        <div>
-        <label for="rank">Selecione o rank da missão</label>
-        <select name="rank" name="rank" required>
-            <option value="">Tipo de missao</option>
-            <option value="S">Rank S</option>
-            <option value="A">Rank A</option>
-            <option value="B">Rank B</option>
-            <option value="C">Rank C</option>
-            <option value="D">Rank D</option>
-        </select>
+
+        <div class="tipo">
+            <label for="tipo">Qual o nivel da missao?</label>
+            <div>
+                <label for="d">
+                    <input type="radio" name="tipo" value="d">
+                    D
+                </label>
+            </div>
+            <div>
+                <label for="c">
+                    <input type="radio" name="tipo" value="c">
+                    C
+                </label>
+            </div>
+            <div>
+                <label for="b">
+                    <input type="radio" name="tipo" value="b">
+                    B
+                </label>
+            </div>
+            <div>
+                <label for="a">
+                    <input type="radio" name="tipo" value="a">
+                    A
+                </label>
+            </div>
+            <div>
+                <label for="s">
+                    <input type="radio" name="tipo" value="s">
+                    S
+                </label>
+            </div>
+           
         </div>
         
+
         <input type="email" requiredminlength="3"maxlength="50"pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"placeholder="seu.email@aldeia.com">
 
         <button type="submit">Registrar na Academia</button>
     </form>
     
 </body>
+
 </html>
